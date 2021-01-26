@@ -33,8 +33,8 @@ public class ObserverExample {
 
     @Override
     public void onUpdate(Observable observable) {
-      String msg = String.format("%s posted: %s", observable.getClass().getSimpleName(),
-          observable.getUpdate());
+      String msg = String.format("Palpatine received an update from %s: %s",
+          observable.getClass().getSimpleName(), observable.getUpdate());
       System.out.println(msg);
     }
   }
@@ -87,28 +87,4 @@ public class ObserverExample {
 
     public String getUpdate();
   }
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 }
