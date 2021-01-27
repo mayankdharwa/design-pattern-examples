@@ -42,7 +42,9 @@ public class DecoratorExample {
 
     @Override
     public List<Food> getFoods() {
-      return order.getFoods();
+      List<Food> foods = order.getFoods();
+
+      return foods;
     }
 
     @Override
