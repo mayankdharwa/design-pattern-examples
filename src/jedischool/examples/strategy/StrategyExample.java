@@ -68,7 +68,7 @@ public class StrategyExample {
 
     @Override
     public void behave() {
-      System.out.println("Patrolling the parameters");
+      System.out.println("Patrolling the perimeters");
     }
   }
 
